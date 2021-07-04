@@ -2,23 +2,37 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
-h1{
+* {
+    box-sizing: border-box;
+  }
+.jackh1{
     font-size: 60px;
 }
-h2{
+.textAlign{
+    font-size: 40px;
+    text-align: center;
+}
+.textcenter{
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    font-size: 15px;
+}
+.hello{
     font-size: 40px;
 }
 .fontColor{
     color: rgb(238, 80, 106);
 }
-.floatDesing{
+.floatDesign{
     width: 30%;
     float: left;
-    margin: 3%;
-    padding: 1%;
+    margin: 5%;
+    padding: 2%;
 }
-.floatDesing img{
-    width: 100%;
+.floatDesign img{
+    width: 80%;
 }
 .hireMeButton{
     border: none;
@@ -30,15 +44,43 @@ h2{
     border-radius: 5px;
     cursor: pointer;
 }
+.sectionHeight1{
+    height: 690px;
+}
+.sectionHeight2{
+    height: 800px;
+    padding-bottom: 200px;
+}
+.sectionHeight3{
+    height: 550px;
+}
 .section1Bg{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
 }
-section{
-    height: 900px;
-    padding: 100px;
-}
-.section2bg{
+.section2Bg{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+}
+.section3Bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.work{
+    display: flex;
+    justify-content: center;
+}
+.work img{
+    width: 75%;
+}
+.mail{
+    border: none;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(248, 72, 102);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    width: 25%;
 }
