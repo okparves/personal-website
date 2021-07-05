@@ -74,13 +74,18 @@ span{
     width: 75%;
 }
 .mail{
-    border: none;
     text-align: center;
-    justify-content: center;
-    background-color: rgb(248, 72, 102);
-    text-decoration: none;
-    padding: 10px 20px;
     color: white;
+    text-decoration: none;
+    border: none;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(248, 72, 102);
     border-radius: 10px;
-    width: 25%;
+    padding: 10px 20px;
+    
+}
+footer p{
+    text-align: center;
+    font-size: small;
 }
